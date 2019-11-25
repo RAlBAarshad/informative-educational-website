@@ -1,0 +1,32 @@
+h2{
+    font-family: monospace;  
+    color:   white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.line{
+    font-family: monospace;
+    color: white;
+    padding: 0px;
+    font-size: x-large;
+}
+.efaGep{
+    display: none;
+}
+
+.main{
+    background-image: url(./acids/14.png);
+    height: 35em;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+ 
+section{
+    margin: 0em 0em 0em 25em; 
+} 
+
+ 

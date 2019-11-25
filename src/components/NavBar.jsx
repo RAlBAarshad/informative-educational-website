@@ -19,26 +19,26 @@ export default function NavBar() {
     return (
         // <Paper elevation={0}>
 
-            <Breadcrumbs  className="navbar" >
-                <Link href="/" onClick={handleClick} >
-                    <HomeIcon  />
-                   <li>HOME</li> 
-               </Link>
+        <Breadcrumbs className="navbar" >
+            <Link href="/" onClick={handleClick} >
+                <HomeIcon />
+                <li>HOME</li>
+            </Link>
 
-                <Link
-                    href="/getting-started/installation/"
-                    onClick={handleClick}
-                    >
-                 <WhatshotIcon  />
-                  <li>BETTER FUTURE</li>  
-               </Link>
+            <Link
+                href="BetterFuture"
+                onClick={handleClick}
+            >
+                <WhatshotIcon />
+                <li>BETTER FUTURE</li>
+            </Link>
 
-                <Link>
-                    <GrainIcon />
-                   <li>HIDDEN POTENCIALS</li> 
-                </Link>
+            <Link>
+                <GrainIcon />
+                <li>HIDDEN POTENCIALS</li>
+            </Link>
 
-            </Breadcrumbs>
+        </Breadcrumbs>
         // </Paper>
     );
 }

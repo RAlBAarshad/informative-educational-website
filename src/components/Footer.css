@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    color: #365c75;
+    background-color: white;
+    justify-content: center; 
+    padding: 1.7em;
+}
+
+.footer p{
+    color: #2e3192c9;
+    font-weight: bold;
+    margin: 1em 2em;
+
+}
+
+.icon:hover{
+ cursor: pointer;
+ color: #1a1d7d;
+}

@@ -1,18 +1,18 @@
 import React from 'react';
-import Typing from 'react-typing-animation';
+import Typist from 'react-typing-animation';
+import "./TypingSentence.css";
 
 function TypingSentence() {
     return (
-    
-         <Typing className="line" speed={90}>
-                <h1> LOOKING FORWARD TOWARDS THE OPPORTUNITIES??  </h1>
-                <Typing.Speed ms={100} />
-                <br />
-                <h3> "It is Educational based website which provide information regarding Educational QUERIES and which DISCIPLE is fruitful for you" </h3>
-                <Typing.Reset count={1} delay={5} />
-            </Typing>
-       
+        <div className="main">
+           <section className="left" >
+            <Typist className="line" speed={90}>
+                <h1> LOOKING FORWARD TOWARDS THE OPPORTUNITIES!!  </h1>
+            </Typist>
+            <h2> "It is Educational based website which provide information regarding Educational QUERIES and which DISCIPLE is fruitful for you" </h2>
+            </section>
+        </div>
     )
 
 }
-export default  TypingSentence;
+export default TypingSentence;
