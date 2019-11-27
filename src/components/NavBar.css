@@ -2,32 +2,39 @@
     background-color: none;
     display: flex;
     flex-direction: row;
-    color: #ffff;
+    /* color: #ffff; */
 }
 
-.navbar Link {
-    display: flex;
-    flex-direction: row;
-    /* color: #3f51b5; */
-    color: #ffff;
 
-}
-
+/* 
 .MuiTypography-root{
     display: flex;
     flex-direction: row;
     align-items: center;
     color: white;
-}
-
+} */
+/* 
 .MuiTypography-root li{
     padding: 10px;
     font-weight: bold;
     color: white;
 
-}
-
+} */
+/* 
 .MuiTypography-root li:hover{
     color: #fff;
     cursor: pointer;
+} */ 
+
+
+li{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    /* color: #3f51b5; */
+    color: #2e3192;
+    color: black;
+
+    margin: 0px;
+    width: 100%;
 }
