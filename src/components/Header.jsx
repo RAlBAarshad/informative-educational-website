@@ -7,9 +7,10 @@ function Header() {
     <div className="Header">
 
       {/* <img src={logo} alt="" className="logo"/>  */}
-      <header> 
-      <h3> FUTURE ORIENTED </h3>
-      <p> Explore Your Potentials </p>
+
+      <header>
+        <h3> FUTURE ORIENTED </h3>
+        <p> Explore Your Potentials </p>
       </header>
       <NavBar />
 

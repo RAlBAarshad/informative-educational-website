@@ -24,6 +24,7 @@ export default function NavBar() {
             <Switch>
                 <div className="navbar" >
 
+                    
                     <ul>
 
                         <Link to="/">

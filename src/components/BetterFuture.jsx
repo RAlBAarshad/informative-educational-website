@@ -2,6 +2,31 @@ import React from 'react';
 import './BetterFuture.css';
 // import Header from "./components/Header"
 
+const universities = [
+  {
+    "name" : "University of Karachi",
+    "type" : "Public",
+    "specialization" : ["sciences", "social sciences" , "Business", "computer science" ],
+    "degree" : ["Graduation ", "Masters", "M.Phil", "PHD" ],
+    "website-link" : "http://www.uok.edu.pk/"
+  },
+  {
+    "name" : "NED University of Engineering and Technology",
+    "type" : "Public",
+    "specialization" : ["Engineering","computer science"],
+    "degree" : ["Graduation ", "Masters", "M.Phil", "PHD" ],
+    "website-link" : "https://www.neduet.edu.pk/"
+
+  },
+  {
+    "name" : "Federal Urdu University, Karachi campus",
+    "type" : "Public",
+    "specialization" : ["sciences", "social sciences" , "Business" ,"computer science"],
+    "degree" : ["Graduation ", "Masters", "M.Phil"],
+    "website-link" : "https://fuuast.edu.pk/"
+  }
+]
+
 
 function BetterFuture() {
     return (
@@ -10,7 +35,7 @@ function BetterFuture() {
        <h1>  Better Future </h1>
        <h2>Fill the Followings, to gain Favouritable outcomes:</h2>
 
-       <form action="thanks.html" target="_blank">
+       <form action="/" target="/">
       <fieldset>
         <label for="fullNameInput"> Your Full Name </label>
       
@@ -23,20 +48,20 @@ function BetterFuture() {
 
       <fieldset>
         <label for="qualificationInput"> Your Present Qualification: </label> <br/>
-        <input id="qualificationInput-1"  required type='checkbox'/>
+        <input id="qualificationInput-1"  type='checkbox'/>
         <label for="qualificationInput-1">  PHD </label>
-        <input id="qualificationInput-2"  required type='checkbox'/>
+        <input id="qualificationInput-2"  type='checkbox'/>
         <label for="qualificationInput-2"> M.Phil   </label>
-        <input id="qualificationInput-3"  required type='checkbox'/>
+        <input id="qualificationInput-3"  type='checkbox'/>
         <label for="qualificationInput-3">  Masters  </label>
-        <input id="qualificationInput-4"  required type='checkbox'/>
+        <input id="qualificationInput-4"  type='checkbox'/>
         <label for="qualificationInput-4"> Graduation  </label>
-        <input id="qualificationInput-5"  required type='checkbox'/>
+        <input id="qualificationInput-5"  type='checkbox'/>
         <label for="qualificationInput-5"> Intermediate </label>
       </fieldset>
 
       <fieldset>
-        <label > Future You Want To Study in: </label> <br/>
+        <label > Furture You Want To Study in: </label> <br/>
         <input id="studyInput-1"  type='checkbox'/>
         <label for="studyInput-1"> Graduation </label>
         <input id="studyInput-2"  type='checkbox'/>
@@ -57,6 +82,8 @@ function BetterFuture() {
         <label for="discipline-3"> Business </label>
         <input id="discipline-3" type='checkbox'/>
         <label for="discipline-3"> Computer Science </label>
+        <input id="discipline-4" type='checkbox'/>
+        <label for="discipline-4">  Engineering </label>
       </fieldset>
 
       <input className="submit-button" type="submit" value="Submit!" />
