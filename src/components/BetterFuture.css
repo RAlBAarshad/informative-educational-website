@@ -8,7 +8,8 @@ form{
     border: 2px solid white;
     border-radius: 2%;
     padding: 15px;
-    margin: 1em;
+    margin: 3em;
+    width: 50%;
 }
 
 .submit-button{
@@ -19,4 +20,15 @@ form{
 
 #fullNameInput{
     font-size: larger;
+}
+.BetterFuture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    padding: 1em 0em 0.5em 0em;
+    color: #15186b;
+     font-weight: bold;
 }

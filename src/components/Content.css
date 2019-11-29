@@ -82,3 +82,8 @@ position:relative;
     .demo-css-2 .img:hover {
         opacity:0;
      }
+p:hover{
+  color: whitesmoke;
+  text-shadow: 2px 1px 1px black;
+  
+}

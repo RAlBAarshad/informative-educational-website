@@ -7,7 +7,7 @@ function TypingSentence() {
         <div className="main">
            <section className="left" >
             <Typist className="line" speed={90}>
-                <h1> LOOKING FORWARD TOWARDS THE OPPORTUNITIES!!  </h1>
+                <h1 className="line-h1"> LOOKING FORWARD TOWARDS THE OPPORTUNITIES!!  </h1>
             </Typist>
             <h2> "It is Educational based website which provide information regarding Educational QUERIES and which DISCIPLE is fruitful for you" </h2>
             </section>
