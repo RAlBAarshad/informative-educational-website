@@ -1,9 +1,11 @@
 import React from 'react'
+import "./HiddenPotentials.css"
 
 function HiddenPotentials() {
     return (
-        <div>
-            <h1> HiddenPotentials </h1>
+        <div className="HiddenPotentials">
+
+            <h1> Hidden Potentials </h1>
 
         </div>
     )

@@ -11,7 +11,7 @@ function OutComeOfBetterFuture() {
       "type": "Public",
       "specialization": ["Sciences", "Social Sciences", "Business", "Computer Science"],
       "degree": ["Graduation ", "Masters", "M.Phil", "PHD"],
-      "website-link": "http://www.uok.edu.pk/"
+      "website-link": ["http://www.uok.edu.pk/"]
     },
     {
       "name": "NED University of Engineering and Technology",
@@ -32,17 +32,18 @@ function OutComeOfBetterFuture() {
   return (
     <div className="OutComeOfBetterFuture">
 
-      { universities.map(results =>(
-        
-    <ul className="results">
-        <li className="results-li"> University Name: {results.name} </li>
-        <li className="results-li"> Type Of University:{results.type} </li>
-        <li className="results-li"> Disciplines available in University: {results.specialization}  </li>
-        <li className="results-li"> Providing Degree in: {results.degree}</li>
-        <li className="results-li" className="none"> University website-link: { results.website-link} </li>
-      </ul>)
-      
-        )}
+      <h1 className="OutComeOfBetterFuture-h1"> Hi ! This list would help you :) </h1 >
+      {universities.map(results => (
+
+        <ul className="results">
+          <li className="results-li"> University Name :  {results.name} </li>
+          <li className="results-li"> Type Of University :  {results.type} </li>
+          <li className="results-li"> Disciplines available in University : {results.specialization.join(' , ')}  </li>
+          <li className="results-li"> Providing Degree in : {results.degree.join(' , ')}</li>
+          <li className="results-li" className="none"> University website-link : {results.website - link} </li>
+        </ul>)
+
+      )}
     </div>
   )
 }
